@@ -73,8 +73,6 @@ The following pictures demonstrates both methods:
 ###### Gradient in x direction: Sobel Y
 ![alt text][image2_2]
 
-(thresholding steps at lines # through # in `another_file.py`).  Here's an example of my output for this step.  (note: this is not actually from one of the test images)
-
 ##### 2.2 Taking magnitude of  gradient in both in x and y direction
 
 The function `mag_thresh()` calculates the magnitude of the gradient, in both x and y and applies a threshold to this overall magnitude. The magnitude, or absolute value, of the gradient is just the square root of the squares of the individual x and y gradients, which are returned by previously described function `abs_sobel_thresh()`. 
